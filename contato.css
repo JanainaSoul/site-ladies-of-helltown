@@ -1,0 +1,98 @@
+body {
+	font-family: 'Special Elite', cursive;
+
+}
+
+
+#banner {
+	width: 100%;
+
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+header {
+	background: white;
+	padding: 20px 0;
+}
+
+nav {
+	position: absolute;
+	top:110px;
+	right:0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #23653f;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #61308c;
+	text-decoration: underline;
+}
+
+main {
+	width: 940px;
+	margin: 0 auto;
+}
+
+form {
+	margin: 40px 0;
+}
+
+form label, legend {
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+legend {
+	color: purple;
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrao {
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+}
+
+.checkbox {
+	color: green;
+	margin: 20px 0;
+}
+
+footer {
+	text-align: center;
+	background: #231f20;
+	padding: 40px 0;
+
+}
+
+.copyright {
+	color: #ffffff;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+.icones {
+	color: #ffffff;
+	width: 150px;
+	height: 150px;
+}

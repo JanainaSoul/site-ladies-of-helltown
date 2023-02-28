@@ -1,0 +1,115 @@
+body {
+	font-family: 'Special Elite', cursive;
+}
+
+.banner {
+	width: 100%;
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+
+header {
+	background: white;
+	padding: 20px 0;
+}
+
+nav {
+	position: absolute;
+	top:110px;
+	right:0;
+}
+
+nav li {
+	display: inline;
+	margin: 0 0 0 15px;
+}
+
+nav a {
+	text-transform: uppercase;
+	color: #23653f;
+	font-weight: bold;
+	font-size: 22px;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #61308c;
+	text-decoration: underline;
+}
+
+.principal {
+	background-color: #23653f;;
+	padding: 30px;
+}
+
+.titulo-principal {
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+
+}
+
+.principal p {
+	margin: 0 0 1em;
+	font-size: 20px;
+	text-align: justify;
+	line-height: 1.5;
+	color:white;
+
+}
+
+.principal strong {
+	font-weight: bold;
+	color: black;
+}
+
+.principal em {
+	font-style: italic;
+}
+
+.imagem-jogo{
+	width: 600px;
+	border-color: black;
+	display: flex;
+	flex: 0 1 700px;
+	justify-content: center;
+	
+}
+	
+.jogo {
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: background: linear-gradient(#61308c,#23653f );
+	
+	
+}
+
+
+
+footer {
+	text-align: center;
+	background: #231f20;
+	padding: 40px 0;
+
+}
+
+.copyright {
+	color: #ffffff;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+.icones {
+	color: #ffffff;
+	width: 150px;
+	height: 150px;
+} 
+
+
+
+/*background: linear-gradient(#61308c, #23653f);*/

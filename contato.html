@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Contato - Ladies of Helltown</title>
+		<link rel="stylesheet" href="reset.css">
+		<link rel="stylesheet" href="contato.css">
+		<link rel="shortcut icon" href="logo_Ladies.jpg" type="image/x-icon">
+		<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+	</head>
+
+	<body>
+		<header>
+				<div class="caixa"> 
+
+					<h1> <img src="logo ladies transparente.png" alt="logo das ladies"> </h1>
+
+				<nav>
+					<ul > 
+						<li><a href="sobre.html">Sobre Nós</a></li>
+						<li><a href="derby.html">Roller Derby</a></li>
+						<li><a href="ligas.html">Ligas</a></li>
+						<li><a href="loja.html">Loja</a></li>
+						<li><a href="contato.html">Contato</a></li>
+
+				
+			
+			</div>
+		</header>
+
+		<main> 
+			<form>
+				<label for="nome-sobrenome"> Nome e sobrenome</label>
+				<input type="text" id="nome-sobrenome "class="input-padrao" required>
+
+				<label for="email"> Email</label>
+				<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+				<label for="telefone"> Telefone</label>
+				<input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+				<label for="mensagem"> Mensagem </label>
+				<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required> </textarea>
+
+				<fieldset>
+					<legend> Como prefere nosso contato? </legend>
+
+					<label for="radio-email"> <input type="radio" name="contato" value="email" id="radio-email">Email </label>
+					
+					<label for="radio-telefone"> <input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone </label>
+					
+					<label for="radio-whatsapp"> <input type="radio" name="contato" value="whatapp" id="radio-whatsapp" checked>WhatsApp </label>
+
+											
+				</fieldset>
+				
+					<label class="checkbox"><input type="checkbox" checked>Gostaria de receber nossas novidades por email?</label>
+					<input type="submit" value="Enviar formulário" class="enviar">
+			</form>
+
+		</main>
+		
+		<footer> 
+			<img src="logo fundo preto.png">
+			<p class="copyright"> &copy;Copyright Ladies of Helltown 2023</p>
+			<a class="icones" href="https://www.facebook.com/ladiesofhelltown/?locale=pt_BR"><ion-icon name="logo-facebook"></ion-icon></a>
+       		<a class="icones" href="https://www.instagram.com/ladiesofhelltown/"><ion-icon name="logo-instagram"></ion-icon></a>
+       		<a class="icones" href="https://www.instagram.com/ladiesofhelltown/"><ion-icon name="logo-whatsapp"></ion-icon></a>
+       	</footer>
+				
+	</body>
